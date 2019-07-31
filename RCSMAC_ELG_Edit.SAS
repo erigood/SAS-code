@@ -1,3 +1,15 @@
+/*
+Use the RCSMAC_ELG_Edit.SAS program as an %include program.
+This program is for all purposes, the same as Y:\_TIMI_resource\Resources for Restricted Cubic Splines\RCS macro\RCSMAC.sas 
+just with additional hard coded options to help automate the saving process and 
+manual edits needed for running the additional program.
+NOTE: If doing multiple copies of splines, it's best to save in a different folder path for the next step (if desired)
+
+After all programs have been created, add the [!]Create Batch Run programs to the folder. Change the macro location and a new program
+called [!!] Run all in Batch Mode.sas will be created. Run this program and all programs in the folder will be run in batch mode.
+This is the easiest way to run multiple splines. Run this where programs you do not want to run are kept.
+*/
+
 %*--------------------------------------------------------------------;
 %*                                                                    ;
 %*            SAS-Macro RCS                                           ;
